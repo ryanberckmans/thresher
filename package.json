@@ -36,6 +36,7 @@
     "eventemitter2": "^0.4.14",
     "jsdom-little": "~0.10.5",
     "lodash": "^3.6.0",
+    "nightmare": "^2.7.0",
     "phantomjs": "~1.9.7-12",
     "request": "~2.55.0",
     "request-progress": "^0.3.1",
@@ -48,11 +49,13 @@
   },
   "devDependencies": {
     "coveralls": "~2.11.1",
-    "mocha-lcov-reporter": "0.0.1",
-    "should": "~4.0.0",
+    "express": "~4.8.8",
     "istanbul": "~0.3.2",
     "mocha": "~1.21.4",
-    "express": "~4.8.8",
+    "mocha-lcov-reporter": "0.0.1",
+    "rewire": "^2.5.2",
+    "should": "~4.0.0",
+    "sinon": "^1.17.6",
     "temp": "~0.8.0"
   },
   "keywords": [
